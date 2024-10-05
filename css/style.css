@@ -49,8 +49,7 @@ font-weight: 500;
         color: #404bbf;
 }
 
-.navigation-link:active,
-.address-link:focus {
+.navigation-link:active {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -58,6 +57,10 @@ font-weight: 500;
         color: #404bbf;
         text-decoration: underline;
 }
+.navigation-link:focus{
+color: #404bbf;
+}
+
 .header-adress-list {
 font-style: normal;
 }
